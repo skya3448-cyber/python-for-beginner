@@ -1,0 +1,23 @@
+string
+->In Python, a string is an immutable sequence of Unicode characters used to represent textual data.
+1.create a string
+name="akash"
+#multiple line string
+multiple_string=""" paragraph \(spans multiple lines)"""
+
+2.index
+love="preethi"
+print(love[0]) #output: p
+print(love[3]) #output: e
+
+print(love.index(p)) #output:0
+print(love.index(e)) #output:2
+
+3.upper case  and lower case
+love="moha"
+print(love.upper()) #output:MOHA
+print(love.lower()) #output:moha
+print(love.islower()) #output:True
+#length of a string
+print(len(love)) #output:4
+print(replace(ha,ksha) #output:moksha
