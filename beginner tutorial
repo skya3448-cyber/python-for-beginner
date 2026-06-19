@@ -1,4 +1,4 @@
-string
+STRING
 ->In Python, a string is an immutable sequence of Unicode characters used to represent textual data.
 1.create a string
 name="akash"
@@ -21,3 +21,31 @@ print(love.islower()) #output:True
 #length of a string
 print(len(love)) #output:4
 print(replace(ha,ksha) #output:moksha
+
+there are  lot of inbuilt functionns in python language.
+
+NUMBERS
+number=-2
+wrong method:print(number+"my fav number")    #output:error
+correct method:print(str(number)+"my fav number") #output:-2my fav number 
+To print absolute number we use in built abs() function
+print(abs(number)) #output:2
+To print power of number we use in built pow() function
+print(pow(2,2))    #output:4
+To print maximum and minimum number 
+print(max(2,3))    #output:3
+print(min(4,5))    #output:4
+print(rounnd(5.7)) #output:6
+print(math.floor(5.7))#output:5
+print(math.sqrt(49))#output:7
+
+
+Use of from math import*
+befor we use math.sqrt to print square root of number like this : print(math.sqrt(49))
+instead  You use from math import * at the very top of your Python script when you want
+to use every single mathematical function from Python's built-in math module without 
+typing the math. prefix every time.
+
+
+
+
