@@ -47,5 +47,29 @@ to use every single mathematical function from Python's built-in math module wit
 typing the math. prefix every time.
 
 
+#GETTING INPUT FROM USER
+name=input("enter your name")   #output:enter your name
+age=input("enter your age")    #output:enter your age
+print("hello",name,"your age is",age)
+if i enter my name as john and age 19 the output will be hello john your age is 19
+
+#building basic calculator using input function
+num1=input("enter a number")
+num2=input("enter a second number")
+result=num1+num2
+print(result)
+if i enter num1=8 and num2=9 the output will be 89 this is absoulutely wrong.
+because here 8 & 9 are strings
+
+the correct code>
+num1=float(input("enter a nmber")
+num2=float(input("enter a number")
+result=num1+num2
+print(result)
+
+
+
+
+
 
 
