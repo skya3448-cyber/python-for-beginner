@@ -67,6 +67,15 @@ num2=float(input("enter a number")
 result=num1+num2
 print(result)
 
+#LISTS
+freinds=["rama","krishna","narayana"]
+print(freinds)
+print a specific element 
+print(freinds[0]) #output:rama
+print(freinds[2]) #output:narayana
+
+
+
 
 
 
