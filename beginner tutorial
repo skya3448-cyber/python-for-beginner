@@ -74,6 +74,27 @@ print a specific element
 print(freinds[0]) #output:rama
 print(freinds[2]) #output:narayana
 
+#LIST FUNCTION
+lucky_number=["23","19","1","24","12",66"]
+freinds=["rama","ramayana","krishna","vishnu"]
+*append() function: If you pass another list into append(), it adds that entire list as a single nested element.
+print(freinds.append("om")
+#output:"rama","ramayana","krishna","vishnu","om"
+*extend(): Modifies the list by appending multiple elements at once without creating nested lists.
+print(freinds.extend(lucky_number)
+#output:rama,ramayana,krishna,vishnu,23,19,1,24,12,66
+*insert: Elements after the chosen index are shifted to the right.
+print(freinds.insert(1,"om")
+#output:"rama","om","ramayana","krishna","vishnu"
+*Remove(): It only removes one item. If the item does not exist in the list, it throws a ValueError.
+print(freinds.remove("om")
+#output:"rama","ramayana","krishna","vishnu"
+*clear():Removes all elements from the list, leaving it completely empty.
+print(freinds.clear())
+output:[]
+*sort:Sorts the items of the list in-place (by default, in ascending order).
+print(lucky_number.sort())
+output:1,12,19,23,24,66
 
 
 
