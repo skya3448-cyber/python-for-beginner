@@ -97,6 +97,33 @@ print(lucky_number.sort())
 output:1,12,19,23,24,66
 
 
+#TUPLES
+use it for data that never gona change
+coardinates=[rama,krishna,same]
+output:rama,krishna,same
+
+
+
+#FUNCTIONS in python
+def sayhi():
+     print("hello user")
+sayhi()
+
+output:hello user
+
+
+def sayhi(name):
+    print("hello"+name)
+sayhi("mike")
+
+output:hello mike
+
+
+
+
+
+
+
 
 
 
