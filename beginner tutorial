@@ -105,6 +105,8 @@ output:rama,krishna,same
 
 
 #FUNCTIONS in python
+
+
 def sayhi():
      print("hello user")
 sayhi()
@@ -117,6 +119,48 @@ def sayhi(name):
 sayhi("mike")
 
 output:hello mike
+
+
+
+#RETURN statement
+def cube(num):
+    return(num*num*num)
+result=cube(4)
+print(result)
+
+
+#IF STATEMENT
+//example1:
+is_male=True
+if is_male:
+   print("you are male")
+else:
+    print("you are not a male")
+
+//example2:
+is_male=True
+is_tall=True
+if is_male or is_tall:
+   print("you are a male or tall or both")
+else:
+   print("you neither male or tall")
+
+//example3:
+is_male=True
+is_tall=False
+
+if is_male andis_tall: 
+   print("you are a tall male:)
+elif is_male and not(is_tall):
+    print("you are short")
+elif not(is_male) and is_tall:
+     print("you are not a male")
+else:
+     print("you either a male or tall or both")
+
+
+
+
 
 
 
