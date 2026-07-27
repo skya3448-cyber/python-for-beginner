@@ -158,6 +158,20 @@ elif not(is_male) and is_tall:
 else:
      print("you either a male or tall or both")
 
+#if statements and comparisons
+
+ex:def max(num1,num2,num3):
+       if num1>=num2 and num1>=num3:
+          return num1
+       elif num2>=num1 and num2>=num3:
+           return num2
+        else:
+            return num3
+    print (max(3,4,5))
+     output:5
+
+     
+
 
 
 
