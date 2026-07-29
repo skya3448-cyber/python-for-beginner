@@ -186,6 +186,25 @@ elif op == "/":
 else: 
     print("invalid operator")
 
+#DICTIONARIES
+dayconversion={ "sun":"sunday",
+"mon":"monday",
+"tue":"tueday",
+"wed":"wednesday",
+"thu":"thursday",
+"fri":"friday",
+"sat":"satuarday",}
+
+print(dayconversion.get("wed"))
+Output:wednesday
+print(dayconversion.get("luv"))
+Output:none
+
+
+
+
+
+
 
 
      
